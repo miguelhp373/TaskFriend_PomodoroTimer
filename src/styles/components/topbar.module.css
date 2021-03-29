@@ -1,0 +1,90 @@
+.topBar{
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.buttonHelp{
+    padding: 20px;
+
+}
+
+.buttonHelp>button{
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    background-color: var(--button-help-color);
+    color: var(--buttons-text-color);
+
+    border: none;
+    border-radius: 4px;
+
+    transition: 0.2s;
+}
+
+.buttonHelp>button:hover{
+    filter: brightness(90%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.progressBarAlign{
+    /* margin-left: 370px; */
+    padding: 15px;
+}
+
+.progressBarAlign>span{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #FFF;
+   
+}
+
+.progressBar{
+    margin: 10px;
+
+    width: 300px;
+    height: 10px;
+
+    background-color: #FFF;
+    border-radius: 4px;
+    position: relative;
+}
+
+.progressBar>.progress{
+    background-color: var(--progress-bar-color);
+    border-radius: 4px;
+    width: 50%;
+    height: 4px;
+    padding: 3px;
+
+}
+
+
+.themeMode{
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   /*  margin-left: 350px; */
+}
+
+.themeMode>.switchButton{
+    margin-right: 25px;
+}
+
+.themeMode>span{
+    /* margin-right: 10px; */
+    color: #FFF;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,26 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --background-home-light:#96c3ec;
+    --background-home-dark:#34495e;
+
+    --circle-center-light:#ffffff;
+    --circle-center-dark:#00b894;
+
+    --title-text-color:#2d3436;
+    --buttons-text-color:#dfe6e9;
+    --button-start-color:#00b894;
+    --button-reset-color:#d63031;  
+    --button-next-color:#6c5ce7; 
+    --button-help-color:#636e72;
+
+    --progress-bar-color:#2ed573;
+}
+
+body{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
